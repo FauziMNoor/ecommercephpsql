@@ -68,3 +68,66 @@ button {
 button:hover {
     background-color: #003366;
 }
+
+h1 {
+    color: #ff4081;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+table tr:hover {
+    background-color: #fdf1f7;
+    transition: 0.3s;
+}
+
+a {
+    background: #ff4081;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+a:hover {
+    background: #c2185b;
+}
+
+
+a i {
+    font-size: 18px;
+    color: #555;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+a i:hover {
+    color: #ff4081;
+    transform: scale(1.2);
+}
